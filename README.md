@@ -16,7 +16,7 @@ There is no line break.
 It has line break.
 
 ```java
-		System.out.println("Simple Println - Hello World");
+	System.out.println("Simple Println - Hello World");
 ```
 
 
@@ -25,7 +25,7 @@ It has line break.
 Format Specifier: %d
 
 ```java
-		System.out.println("Print Number: " + 999);
+	System.out.println("Print Number: " + 999);
 ```
 
 
@@ -34,7 +34,7 @@ Format Specifier: %d
 Format Specifier: %d
 
 ```java
-		System.out.println("Print Long: " + 10L);
+	System.out.println("Print Long: " + 10L);
 ```
 
 ## Print with Char
@@ -42,8 +42,8 @@ Format Specifier: %d
 Format Specifier: %c
 
 ```java
-		char c = 'A';
-		System.out.println("Print Char: " + c);
+	char c = 'A';
+	System.out.println("Print Char: " + c);
 ```
 		
 ## Print with String (java.lang.String)
@@ -51,16 +51,16 @@ Format Specifier: %c
 Format Specifier: %s
 
 ```java
-		System.out.println("Print String: " + "String Value");
+	System.out.println("Print String: " + "String Value");
 ```
 
 ## Print with model / Print custom class
 
 ```java
-		Person person = new Person();
-		person.setName("Name");
-		person.setAge(30);
-		System.out.println("Print Class Model: " + person.toString());
+	Person person = new Person();
+	person.setName("Name");
+	person.setAge(30);
+	System.out.println("Print Class Model: " + person.toString());
 ```
 
 ## Print with StringFormat
@@ -78,9 +78,9 @@ Use format specifier to replace with variable.
 Use format specifier to replace with variable.
 
 ```java
-		String format = "Custom Format: [Number: %d] - [Text: %s] - [Person Name: %s, Person Age: %d]";
-		Object[] params = new Object[] { 999, "Simple text", person.getName(), person.getAge() };
-		System.out.printf(format, params);
+	String format = "Custom Format: [Number: %d] - [Text: %s] - [Person Name: %s, Person Age: %d]";
+	Object[] params = new Object[] { 999, "Simple text", person.getName(), person.getAge() };
+	System.out.printf(format, params);
 ```
 		
 		
@@ -89,23 +89,23 @@ Use format specifier to replace with variable.
 Format Specifier: %t
 
 ```java
-		Date date = new Date();
-		System.out.println("Date: "+ date);
+	Date date = new Date();
+	System.out.println("Date: "+ date);
 ```
 		
 ## Print with Date Format (BR-PT) dd/MM/yyyy - hh:MM:ss
 ```java
-		SimpleDateFormat dateFormatBR = new SimpleDateFormat("dd/MM/yyyy - hh:MM:ss");
-		System.out.println("Date BR: "+ dateFormatBR.format(date));
+	SimpleDateFormat dateFormatBR = new SimpleDateFormat("dd/MM/yyyy - hh:MM:ss");
+	System.out.println("Date BR: "+ dateFormatBR.format(date));
 ```
 		
 ## Print with keyboard text
 ```java
-		// Get Text
-		System.out.println("Insert Text Here: ");
-		Scanner in = new Scanner(System.in);
-		String text = in.nextLine();
-		
-		System.out.println("Keyboard text: " + text);
+	// Get Text
+	System.out.println("Insert Text Here: ");
+	Scanner in = new Scanner(System.in);
+	String text = in.nextLine();
+	
+	System.out.println("Keyboard text: " + text);
 ```
 		
