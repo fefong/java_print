@@ -68,9 +68,9 @@ Format Specifier: %s
 Use format specifier to replace with variable.
 
 ```java
-		String format = "Custom Format: [Number: %d] - [Text: %s] - [Person Name: %s, Person Age: %d]";
-		Object[] params = new Object[] { 999, "Simple text", person.getName(), person.getAge() };
-		System.out.println(String.format(format, params));
+	String format = "Custom Format: [Number: %d] - [Text: %s] - [Person Name: %s, Person Age: %d]";
+	Object[] params = new Object[] { 999, "Simple text", person.getName(), person.getAge() };
+	System.out.println(String.format(format, params));
 ```
 		
 ## Print with Printf and StringFormat
@@ -109,3 +109,9 @@ Format Specifier: %t
 	System.out.println("Keyboard text: " + text);
 ```
 		
+## Some links for more in depth learning
+
+* [JAVA PRINT](https://github.com/fefong/java_print);
+* [JAVA SWITCH CASE](https://github.com/fefong/java_switch);
+* [JAVA IF/ELSE](https://github.com/fefong/java_ifElse);
+* [JAVA ARITHMETIC](https://github.com/fefong/java_calculator);
