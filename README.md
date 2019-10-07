@@ -83,6 +83,8 @@ String format = "Custom Format: [Number: %d] - [Text: %s] - [Person Name: %s, Pe
 Object[] params = new Object[] { 999, "Simple text", person.getName(), person.getAge() };
 System.out.printf(format, params);
 ```
+
+See [Java - Stringformat Specifiers](https://github.com/fefong/java_variables/blob/master/README.md#java-string-format-specifiers)
 		
 		
 ## Print with Date (Timestamp)
@@ -115,3 +117,4 @@ System.out.println("Keyboard text: " + text);
 * [JAVA SWITCH CASE](https://github.com/fefong/java_switch);
 * [JAVA IF/ELSE](https://github.com/fefong/java_ifElse);
 * [JAVA ARITHMETIC](https://github.com/fefong/java_calculator);
+* [JAVA StringFormat](https://github.com/fefong/java_variables/blob/master/README.md#java-string-format-specifiers)
